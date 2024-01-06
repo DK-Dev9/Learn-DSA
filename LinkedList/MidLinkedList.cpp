@@ -75,9 +75,9 @@ int main(){
     Node* head = node1;
     Node* tail = node1;
     insertAtTail(tail, 7);
-    // insertAtTail(tail, 45);
-    // insertAtTail(tail, 84);
-    // insertAtTail(tail, 74);
+    insertAtTail(tail, 45);
+    insertAtTail(tail, 84);
+    insertAtTail(tail, 74);
 
     
     Node* mid = getMid1(head);

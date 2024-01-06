@@ -42,17 +42,16 @@ void printL(Node* &head){
         cout<< temp->data <<" ";
         temp = temp->next;
     }
-    cout<<endl;
-   
+    cout<<endl; 
 }
 
-int main(){
-    Node* node1 = new Node(2);
-    Node* head = node1;
-    Node *tail = node1;
+// int main(){
+//     Node* node1 = new Node(2);
+//     Node* head = node1;
+//     Node *tail = node1;
 
-    insertAtHead(head, 34);
-    insertAtTail(tail, 9);
-    insertAt(head, 3, 5);
-    printL(head);
-}
+//     insertAtHead(head, 34);
+//     insertAtTail(tail, 9);
+//     insertAt(head, 3, 5);
+//     printL(head);
+// }

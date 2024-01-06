@@ -27,17 +27,18 @@ void sort(Node* &first, Node* &second){
 }
 
 int main(){
-    Node* node1 = new Node(1);
+    Node* node1 = new Node(2);
     Node* head1 = node1;
     Node* tail1 = node1;
-    insertAtTail(tail1, 4);
-    insertAtTail(tail1, 5);
+    // insertAtTail(tail1, 3);
+    // insertAtTail(tail1, 6);
 
-    Node* node2 = new Node(2);
+
+    Node* node2 = new Node(1);
     Node* head2 = node2;
     Node* tail2 = node2;
-    insertAtTail(tail2, 3);
-    insertAtTail(tail2, 6);
+    // insertAtTail(tail2, 3);
+    // insertAtTail(tail2, 6);
 
     Node* first;
     Node* second;

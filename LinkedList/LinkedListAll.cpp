@@ -37,6 +37,9 @@ void insertAt(Node* &head, int n, int d){
 
 void printL(Node* &head){
     Node* temp = head;
+    if(temp == NULL){
+        cout<< "You are empty" <<endl;
+    }
     while(temp!=NULL){
 
         cout<< temp->data <<" ";
